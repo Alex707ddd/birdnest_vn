@@ -1052,10 +1052,32 @@ textarea:focus {
 
   .card-desc {
     min-height: auto;
+    font-size: 0.92rem;
+    color: #f0e6d8 !important; /* Force high contrast for mobile desc */
+  }
+
+  .card-subtitle {
+     font-size: 1.1rem;
+     color: #fff !important;
+  }
+
+  .ritual-item p {
+    font-size: 0.95rem;
+    color: #f5ede0 !important;
+    line-height: 1.5;
+  }
+
+  .ritual-number {
+    font-size: 2.2rem;
   }
 
   .booking-shell {
     padding: 1.5rem 1rem 1.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    color: #ffffff !important;
   }
 }
 
