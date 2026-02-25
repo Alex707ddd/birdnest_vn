@@ -73,12 +73,15 @@ main {
   0% {
     transform: translate(0, 0) scale(1);
   }
+
   33% {
     transform: translate(26px, -34px) scale(1.08);
   }
+
   66% {
     transform: translate(-20px, 18px) scale(0.94);
   }
+
   100% {
     transform: translate(0, 0) scale(1);
   }
@@ -333,7 +336,7 @@ main {
   background: transparent;
 }
 
-.trust-item + .trust-item {
+.trust-item+.trust-item {
   border-left: 1px solid rgba(255, 255, 255, 0.4);
 }
 
@@ -376,7 +379,7 @@ main {
   object-fit: cover;
 }
 
-.craft-content > span {
+.craft-content>span {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -396,7 +399,7 @@ main {
   font-weight: 500;
 }
 
-.craft-content > p {
+.craft-content>p {
   margin: 0;
   line-height: 1.9;
   color: var(--ink-soft);
@@ -682,7 +685,7 @@ main {
   color: #e0d2c4;
 }
 
-.ritual-tips li + li {
+.ritual-tips li+li {
   margin-top: 0.35rem;
 }
 
@@ -716,7 +719,7 @@ main {
   font-size: clamp(1.8rem, 4vw, 3rem);
 }
 
-.booking-shell > p {
+.booking-shell>p {
   color: var(--ink-soft);
   margin-top: 0.5rem;
 }
@@ -971,7 +974,7 @@ textarea:focus {
     grid-template-columns: 1fr;
   }
 
-  .trust-item + .trust-item {
+  .trust-item+.trust-item {
     border-left: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.35);
   }
@@ -1011,6 +1014,7 @@ textarea:focus {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   html,
   body {
     scroll-behavior: auto;
@@ -1025,21 +1029,35 @@ textarea:focus {
 @media (max-width: 430px) {
   .top-nav {
     padding: 0.7rem 0.75rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   .brand {
     font-size: 0.95rem;
     letter-spacing: 0.09em;
+    color: var(--ink) !important;
   }
 
   .nav-links a {
     font-size: 0.8rem;
     letter-spacing: 0.06em;
+    color: var(--ink) !important;
+  }
+
+  .menu-trigger {
+    color: var(--ink) !important;
   }
 
   .lang-switch button {
     padding: 0.22rem 0.44rem;
     font-size: 0.7rem;
+    color: var(--ink-soft);
+  }
+
+  .lang-switch button.active {
+    color: var(--gold-strong);
+    border-color: var(--gold-strong);
   }
 
   .cards {
@@ -1052,18 +1070,28 @@ textarea:focus {
 
   .card-desc {
     min-height: auto;
-    font-size: 0.92rem;
-    color: #f0e6d8 !important; /* Force high contrast for mobile desc */
+    font-size: 0.95rem;
+    color: var(--ink) !important;
+    /* High contrast dark text for light cards */
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
   }
 
-  .card-subtitle {
-     font-size: 1.1rem;
-     color: #fff !important;
+  .card .subtitle {
+    font-size: 0.85rem;
+    color: var(--gold-strong) !important;
+    font-weight: 600;
+  }
+
+  .card h3 {
+    font-size: 1.2rem;
+    color: var(--ink) !important;
   }
 
   .ritual-item p {
     font-size: 0.95rem;
-    color: #f5ede0 !important;
+    color: #ffffff !important;
+    /* Ritual section is dark, keep white */
     line-height: 1.5;
   }
 
@@ -1072,16 +1100,24 @@ textarea:focus {
   }
 
   .booking-shell {
-    padding: 1.5rem 1rem 1.2rem;
+    padding: 1.8rem 1.25rem 1.5rem;
+    background: #ffffff;
+  }
+
+  .booking-shell h2,
+  .booking-shell>p {
+    color: var(--ink) !important;
   }
 
   .hero p {
-    font-size: 1rem;
+    font-size: 1.05rem;
     color: #ffffff !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   }
 }
 
 @media (prefers-color-scheme: dark) {
+
   html,
   body {
     background:
@@ -1111,7 +1147,7 @@ textarea:focus {
 
   .title-wrap p,
   .card p,
-  .booking-shell > p {
+  .booking-shell>p {
     color: #d8c8b2;
   }
 
