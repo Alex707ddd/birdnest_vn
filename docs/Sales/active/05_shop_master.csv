@@ -1,0 +1,13 @@
+shop_id,tier,shop_name,location,contact,active_flag,notes
+HK-T1-001,Tier1,玲瓏閣 (Ling Long Ge),不限,"WhatsApp: +852 5938 7456",Y,核心回收行
+HK-T1-002,Tier1,鴻福滋補行,不限,"WhatsApp: +852 5938 7456",Y,與玲瓏閣同號/同集團
+HK-T1-003,Tier1,宏康商行,旺角 / 中環,"WhatsApp: +852 9453 0784",Y,回收行
+HK-T1-004,Tier1,金海晟回收行,全港十八區,"WhatsApp: +852 6903 5182",Y,可上門
+HK-T2-001,Tier2,Carousell 收購商 A,網上,"WhatsApp: +852 9325 8770",Y,網店收購
+HK-T2-002,Tier2,Carousell 收購商 B,有實體門市,"WhatsApp: +852 9054 2061",Y,可約門市
+HK-T3-001,Tier3,源和燕窩 (Yuen Wo),上環皇后大道中 372 號地下,"Tel: +852 2541 1238",Y,傳統大批發
+HK-T3-002,Tier3,中南海味 (Chung Nam),上環永樂街 164-166 號,直接踩場,Y,傳統大批發
+HK-T3-003,Tier3,吳方興天記,上環永樂街一帶,"Tel: +852 2544 1527",Y,傳統大批發
+HK-T3-004,Tier3,大成燕窩參茸,上環永樂街一帶,"Tel: +852 2542 1119",Y,傳統大批發
+HK-T3-005,Tier3,源興號,上環永樂街一帶,"Tel: +852 2540 9643",Y,傳統大批發
+HK-T4-001,Tier4,陳老二燕窩 (Chan Lo Yi),上環永樂街 12 號 10 樓,總機轉採購部,Y,品牌藥廠

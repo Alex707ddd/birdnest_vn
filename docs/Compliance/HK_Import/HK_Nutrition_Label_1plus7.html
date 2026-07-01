@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>香港進口營養標籤 | HK Nutrition Label (1+7)</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --label-width: 320px;
+            --border-color: #000;
+            --bg-color: #fff;
+        }
+
+        body {
+            background-color: #f1f5f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+        /* Label Container */
+        .label-container {
+            width: var(--label-width);
+            background-color: var(--bg-color);
+            border: 2px solid var(--border-color);
+            padding: 15px;
+            box-sizing: border-box;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-bottom: 10px;
+        }
+
+        .brand-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        .product-name {
+            font-size: 16px;
+            font-weight: 700;
+            margin: 5px 0 0 0;
+        }
+
+        .info-section {
+            font-size: 11px;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+
+        .section-title {
+            font-weight: 700;
+            margin-right: 5px;
+        }
+
+        /* Nutrition Table (HK 1+7 Standard) */
+        .nutrition-header {
+            font-weight: 700;
+            font-size: 14px;
+            text-align: center;
+            border-top: 2px solid var(--border-color);
+            padding-top: 5px;
+            margin-top: 10px;
+        }
+
+        .nutrition-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px;
+            margin-top: 5px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .nutrition-table th,
+        .nutrition-table td {
+            border-bottom: 1px solid #ddd;
+            padding: 4px 2px;
+            text-align: left;
+        }
+
+        .nutrition-table th:last-child,
+        .nutrition-table td:last-child {
+            text-align: right;
+        }
+
+        .indent {
+            padding-left: 15px !important;
+        }
+
+        .footer-note {
+            font-size: 9px;
+            margin-top: 8px;
+            color: #444;
+        }
+
+        .placeholder-note {
+            background: #fffbeb;
+            border: 1px dashed #f59e0b;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 12px;
+            width: 320px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="flex flex-col gap-4">
+        <!-- THE LABEL -->
+        <div class="label-container" id="capture-area">
+            <div class="header">
+                <p class="brand-name">NANA BANANA</p>
+                <p class="product-name">頂級乾燕盞<br><small>Premium Dried Bird's Nest</small></p>
+            </div>
+
+            <div class="info-section">
+                <div><span class="section-title">成份 / Ingredients:</span> 100% 燕窩 / 100% Edible Bird's Nest</div>
+                <div><span class="section-title">淨重 / Net Weight:</span> 250g (每盞約 8-10g)</div>
+                <div><span class="section-title">原產地 / Origin:</span> 越南 / Vietnam</div>
+            </div>
+
+            <!-- 1+7 Table -->
+            <div class="nutrition-header">營養資料 / Nutrition Information</div>
+            <table class="nutrition-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">每 100 克 / Per 100g</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>能量 / Energy</td>
+                        <td>330 kcal / 1381 kJ</td>
+                    </tr>
+                    <tr>
+                        <td>蛋白質 / Protein</td>
+                        <td>50.0 g</td>
+                    </tr>
+                    <tr>
+                        <td>總脂肪 / Total Fat</td>
+                        <td>0.2 g</td>
+                    </tr>
+                    <tr>
+                        <td class="indent">飽和脂肪酸 / Saturated fat</td>
+                        <td>0.1 g</td>
+                    </tr>
+                    <tr>
+                        <td class="indent">反式脂肪酸 / Trans fat</td>
+                        <td>0 g</td>
+                    </tr>
+                    <tr>
+                        <td>碳水化合物 / Carbohydrates</td>
+                        <td>27.0 g</td>
+                    </tr>
+                    <tr>
+                        <td class="indent">糖 / Sugars</td>
+                        <td>0.5 g</td>
+                    </tr>
+                    <tr>
+                        <td>鈉 / Sodium</td>
+                        <td>540 mg</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="info-section" style="margin-top: 10px;">
+                <div><span class="section-title">保存方法 / Storage:</span> 存放於陰涼乾燥處，避免陽光直射。</div>
+                <div><span class="section-title">此日期前最佳 / Best Before:</span> 25/02/2028</div>
+                <div><span class="section-title">進口商 / Importer:</span> 香港燕窩行有限公司 (Placeholder)</div>
+                <div><span class="section-title">地址 / Address:</span> 香港上環德輔道西 88 號</div>
+                <div><span class="section-title">生產商 / Manufacturer:</span> Vietnam Birdnest Co., Ltd.</div>
+            </div>
+
+            <div class="footer-note">
+                *營養數據乃根據業界參考值計算，僅供參考。<br>
+                *Nutrition values based on industry averages for reference only.
+            </div>
+        </div>
+
+        <!-- INSTRUCTIONS -->
+        <div class="placeholder-note">
+            <strong>宰相提示 (PM Tips):</strong><br>
+            1. 為了確保 100% 準確，我直接用代碼寫出了這張標籤。<br>
+            2. 你可以用瀏覽器打開 `label.html` 並截圖。<br>
+            3. 圖片工具 Imagen 暫時崩潰，但這張 HTML 標籤更適合直接印刷。
+        </div>
+    </div>
+
+</body>
+
+</html>
