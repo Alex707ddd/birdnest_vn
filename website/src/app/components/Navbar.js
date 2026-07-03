@@ -22,10 +22,9 @@ export default function Navbar({ lang, onLangChange, labels, languages }) {
     <nav className={`top-nav ${scrolled ? "scrolled" : ""}`}>
       <a href="#hero" className="brand" onClick={closeMenu}>
         <div className="brand-logo-container">
-          <img src="/assets/hanquan_logo.png" alt="漢泉燕窩 Logo" className="navbar-logo" />
+          <img src="/assets/hanquan_logo.png" alt="Logo" className="navbar-logo" />
           <div className="brand-text-stack">
             <span className="brand-primary">{labels.brand}</span>
-            <span className="brand-secondary">VN.Birdnest</span>
           </div>
         </div>
       </a>

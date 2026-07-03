@@ -2,10 +2,13 @@
 
 import { motion } from "framer-motion";
 import { Facebook, Instagram, Mail, MapPin, MessageCircle } from "lucide-react";
+import { useI18n } from "../hooks/useI18n";
 
 const socialIcons = [Instagram, Facebook, MessageCircle];
 
 export default function SiteFooter({ section }) {
+  const { t } = useI18n();
+
   return (
     <motion.footer
       className="site-footer"
@@ -18,10 +21,9 @@ export default function SiteFooter({ section }) {
         <div className="footer-brand">
           <a href="#hero" className="brand footer-brand-link">
             <div className="brand-logo-container">
-              <img src="/assets/hanquan_logo.png" alt="漢泉燕窩 Logo" className="footer-logo" />
+              <img src="/assets/hanquan_logo.png" alt="Logo" className="footer-logo" />
               <div className="brand-text-stack">
-                <span className="brand-primary">漢泉燕窩</span>
-                <span className="brand-secondary">VN.Birdnest</span>
+                <span className="brand-primary">{t.nav.brand}</span>
               </div>
             </div>
           </a>

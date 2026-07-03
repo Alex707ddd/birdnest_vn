@@ -220,7 +220,7 @@ export const translations = {
       collection: "御品 | Collection",
       ritual: "炖煮 | Ritual",
       booking: "预约 | Booking",
-      brand: "汉泉燕窝"
+      brand: "漢泉燕窩"
     },
     hero: {
       caption: "Vietnam Premium Origin",
@@ -402,7 +402,7 @@ export const translations = {
       collection: "Collection",
       ritual: "Ritual",
       booking: "Booking",
-      brand: "Han Quan Nest"
+      brand: "VN.Birdnest"
     },
     hero: {
       caption: "Vietnam Premium Origin",
@@ -584,7 +584,7 @@ export const translations = {
       collection: "Sản phẩm",
       ritual: "Chế biến",
       booking: "Đặt hàng",
-      brand: "Hán Tuyền Yến Sào"
+      brand: "VN.Birdnest"
     },
     hero: {
       caption: "Vietnam Premium Origin",
