@@ -1192,10 +1192,10 @@ textarea:focus {
 /* ── Perched container: fixed top-right corner ── */
 .nest-seal-container {
   position: fixed;
-  top: 5.5rem;
-  right: 1.8rem;
+  top: 5rem;
+  right: 1.6rem;
   z-index: 200;
-  width: 160px;
+  width: 180px;
   pointer-events: none;
   display: flex;
   flex-direction: column;
@@ -1210,35 +1210,47 @@ textarea:focus {
   width: 100%;
 }
 
-/* Perched swallow sits on top of the nest */
+/* Perched swallow sits on top of the nest — PNG version, fully transparent */
 .perched-swallow-wrap {
-  width: 130px;
+  width: 150px;
   height: auto;
-  /* Tiny drop shadow to make it readable against any background */
-  filter: drop-shadow(0 3px 10px rgba(0,0,0,0.55));
-  /* Slight downward overlap so tail naturally rests above nest */
-  margin-bottom: -10px;
+  /* Overlap so bird tail visually connects to nest top */
+  margin-bottom: -14px;
+  position: relative;
+  z-index: 2;
+  background: transparent;
+}
+/* Eliminate any background on Next.js Image wrappers */
+.perched-swallow-wrap span,
+.perched-swallow-wrap img {
+  background: transparent !important;
+}
+/* Flying phase swallow also needs transparent wrapper */
+.swallow-flight-layer span,
+.swallow-flight-layer img {
+  background: transparent !important;
 }
 
-/* Nest strand SVG (grows upward from bottom) */
+/* Nest strand SVG — wider than tall to match the oval nest shape */
 .nest-build-svg {
-  width: 120px;
-  height: 120px;
+  width: 168px;
+  height: 134px;
   overflow: visible;
 }
 
 @media (max-width: 768px) {
   .nest-seal-container {
-    top: 4.8rem;
-    right: 1rem;
-    width: 130px;
+    top: 4.5rem;
+    right: 0.8rem;
+    width: 148px;
   }
   .perched-swallow-wrap {
-    width: 108px;
+    width: 122px;
+    margin-bottom: -12px;
   }
   .nest-build-svg {
-    width: 100px;
-    height: 100px;
+    width: 138px;
+    height: 110px;
   }
 }
 

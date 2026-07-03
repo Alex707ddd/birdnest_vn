@@ -49,6 +49,10 @@ docs/**/*.xlsx
 docs/**/media/
 archive/phase_website_legacy_20260309/result_static_site/
 website/public/assets/
+!website/public/assets/swallow_luxury.png
+!website/public/assets/hanquan_logo.png
+!website/public/assets/hanquan_logo_2.jpg
+!website/public/assets/hanquan_logo_3.png
 
 # Re-ignore website dependencies and local build outputs
 website/node_modules/
