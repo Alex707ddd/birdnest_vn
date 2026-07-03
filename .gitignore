@@ -49,3 +49,7 @@ docs/**/*.xlsx
 docs/**/media/
 archive/phase_website_legacy_20260309/result_static_site/
 website/public/assets/
+
+# Re-ignore website dependencies and local build outputs
+website/node_modules/
+website/.next/

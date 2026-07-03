@@ -2,6 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, ChevronDown } from "lucide-react";
+import SwallowNestSeal from "./SwallowNestSeal";
 
 export default function HeroVideo({ content }) {
   const { scrollYProgress } = useScroll();
@@ -10,6 +11,7 @@ export default function HeroVideo({ content }) {
 
   return (
     <section id="hero" className="hero">
+      <SwallowNestSeal />
       <motion.video
         className="hero-video"
         autoPlay

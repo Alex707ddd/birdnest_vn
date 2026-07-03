@@ -62,6 +62,7 @@
 | Archive | `archive/` | `phase_website_legacy_20260309/result_static_site/` | 舊靜態站封存 |
 | Sales Archive | `docs/Sales/archive/` | `phase_marketing_consolidation_20260309/` | 一次性研究與舊稿封存 |
 | Web | `website/` | `website/src/app/page.js`, `website/src/app/globals.css`, `website/plan/birdsnest_master_plan.md`, `website/legacy_tools/str/` | 品牌展示網站與網站歷史工具 |
+| Local AI Skills | `.opencode/skills/`, `.agent/skills/` | `ui-ux-pro-max/SKILL.md` | Birdnest website UI/UX design reference for OpenCode and Antigravity-style workflows |
 | Evidence | `data/` | 樣品/證書/素材, `data/raw_media_source/raw_media/` | 銷售信任素材 |
 | Temp | `tmp/` | 轉錄/外部研究草稿 | 待提煉暫存 |
 
@@ -139,6 +140,7 @@
 - tmp: 放未提煉內容，不作決策依據。
 - changelog: 只保留關鍵里程碑，避免 root 堆積 `Phase_*` 檔。
 - archive: 重複檔或已淘汰版本移入 `archive/`，不直接刪除。
+- AI/UI work: `ui-ux-pro-max` skills are available under both `.opencode/skills/` and `.agent/skills/` for website UI/UX work. When using free/untrusted models, use only public/redacted website information; do not expose supplier names, private pricing, contacts, lab status, sales logs, raw transcripts, or private strategy notes.
 
 ### Sales Doc Policy
 - 主版: `docs/Sales/HK_Field_Ops_Protocol.md`

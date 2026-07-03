@@ -37,7 +37,8 @@ export const translations = {
       craft: "匠心 | Craft",
       collection: "御品 | Collection",
       ritual: "燉煮 | Ritual",
-      booking: "預約 | Booking"
+      booking: "預約 | Booking",
+      brand: "漢泉燕窩"
     },
     hero: {
       caption: "Vietnam Premium Origin",
@@ -45,6 +46,42 @@ export const translations = {
       subtitle: "天賜珍品",
       desc: "純手工挑毛 · 零化學漂白 · 原產地直送 · 100% Edible Bird's Nest",
       cta: "探索御品系列"
+    },
+    evidence: {
+      title: "獨立專業檢測與食安認證",
+      subtitle: "Quality Proof & Certification",
+      desc: "每一盞燕窩均經過獨立權威檢驗，加工生產流程符合危害分析與關鍵控制點安全管理，透明公開，安心滋補。",
+      sgs: {
+        title: "SGS 香港化驗報告",
+        dateLabel: "報告日期",
+        dateValue: "2026年4月30日",
+        sampleLabel: "樣品描述",
+        sampleValue: "燕窩 / Bird's Nest",
+        originLabel: "原產地",
+        originValue: "越南 (Vietnam)",
+        destLabel: "目的地",
+        destValue: "香港 (Hong Kong)",
+        itemLabel: "檢測項目",
+        itemValue: "亞硝酸鹽 (Nitrite)",
+        resultLabel: "檢測結果",
+        resultValue: "9 mg/kg",
+        limitLabel: "定量極限",
+        limitValue: "5 mg/kg",
+        note: "* 亞硝酸鹽乃天然物質。本樣品檢出值 9 mg/kg 極低，遠低於食安限量標準，證實燕窩品質極致天然、純淨、無化學漂白。",
+        viewReport: "點擊放大查閱 SGS 香港報告原圖"
+      },
+      haccp: {
+        title: "HACCP 安全加工認證",
+        facilityLabel: "認證工廠",
+        facilityValue: "SGS 檢驗標準加工廠",
+        scopeLabel: "認證範圍",
+        scopeValue: "燕窩產品之加工及包裝、鮮燉燕窩飲料之製造",
+        desc: "原料挑毛、包裝到鮮燉，全程採用無塵室規格與 HACCP (危害分析重要管制點) 體系生產，確保每一步驟無污染，為您的健康嚴格把關。",
+        viewCert: "越南衛生部監管與合格加工廠認證"
+      },
+      close: "關閉",
+      prev: "上一張",
+      next: "下一張"
     },
     trust: {
       items: [
@@ -182,7 +219,8 @@ export const translations = {
       craft: "匠心 | Craft",
       collection: "御品 | Collection",
       ritual: "炖煮 | Ritual",
-      booking: "预约 | Booking"
+      booking: "预约 | Booking",
+      brand: "汉泉燕窝"
     },
     hero: {
       caption: "Vietnam Premium Origin",
@@ -190,6 +228,42 @@ export const translations = {
       subtitle: "天赐珍品",
       desc: "纯手工挑毛 · 零化学漂白 · 原产地直送 · 100% Edible Bird's Nest",
       cta: "探索御品系列"
+    },
+    evidence: {
+      title: "独立专业检测与食安认证",
+      subtitle: "Quality Proof & Certification",
+      desc: "每一盏燕窝均经过独立权威检验，加工生产流程符合危害分析与关键控制点安全管理，透明公开，安心滋补。",
+      sgs: {
+        title: "SGS 香港化验报告",
+        dateLabel: "报告日期",
+        dateValue: "2026年4月30日",
+        sampleLabel: "样品描述",
+        sampleValue: "燕窝 / Bird's Nest",
+        originLabel: "原产地",
+        originValue: "越南 (Vietnam)",
+        destLabel: "目的地",
+        destValue: "香港 (Hong Kong)",
+        itemLabel: "检测项目",
+        itemValue: "亚硝酸盐 (Nitrite)",
+        resultLabel: "检测结果",
+        resultValue: "9 mg/kg",
+        limitLabel: "定量极限",
+        limitValue: "5 mg/kg",
+        note: "* 亚硝酸盐乃天然物质。本样品检出值 9 mg/kg 极低，远低于食安限量标准，证实燕窝品质极致天然、纯净、无化学漂白。",
+        viewReport: "点击放大查阅 SGS 香港报告原图"
+      },
+      haccp: {
+        title: "HACCP 安全加工认证",
+        facilityLabel: "认证工厂",
+        facilityValue: "SGS 检验标准加工厂",
+        scopeLabel: "认证范围",
+        scopeValue: "燕窝产品之加工及包装、鲜炖燕窝饮料之制造",
+        desc: "原料挑毛、包装到鲜炖，全程采用无尘室规格与 HACCP (危害分析重要管制点) 体系生产，确保每一步骤无污染，为您的健康严格把关。",
+        viewCert: "越南卫生部监管与合格加工厂认证"
+      },
+      close: "关闭",
+      prev: "上一张",
+      next: "下一张"
     },
     trust: {
       items: [
@@ -327,7 +401,8 @@ export const translations = {
       craft: "Craft",
       collection: "Collection",
       ritual: "Ritual",
-      booking: "Booking"
+      booking: "Booking",
+      brand: "Han Quan Nest"
     },
     hero: {
       caption: "Vietnam Premium Origin",
@@ -335,6 +410,42 @@ export const translations = {
       subtitle: "Nature's Gift",
       desc: "100% Hand-picked · No Bleach · Direct from Origin",
       cta: "Explore Collection"
+    },
+    evidence: {
+      title: "Independent Quality Verification",
+      subtitle: "Quality Proof & Certification",
+      desc: "Every batch of bird's nest undergoes testing by accredited laboratories and complies with international hazard control standards for absolute transparency.",
+      sgs: {
+        title: "SGS Hong Kong Lab Report",
+        dateLabel: "Report Date",
+        dateValue: "30 Apr 2026",
+        sampleLabel: "Description",
+        sampleValue: "Bird's Nest / 燕窩",
+        originLabel: "Origin",
+        originValue: "Vietnam",
+        destLabel: "Destination",
+        destValue: "Hong Kong",
+        itemLabel: "Test Item",
+        itemValue: "Nitrite",
+        resultLabel: "Test Result",
+        resultValue: "9 mg/kg",
+        limitLabel: "Reporting Limit",
+        limitValue: "5 mg/kg",
+        note: "* Nitrite is naturally occurring. The result of 9 mg/kg is extremely low, demonstrating superior purity and authentic natural craftsmanship without bleaching.",
+        viewReport: "Tap to zoom SGS Hong Kong report"
+      },
+      haccp: {
+        title: "HACCP Safety Standard",
+        facilityLabel: "Certified Facility",
+        facilityValue: "SGS Compliant Processing Plant",
+        scopeLabel: "Certified Scope",
+        scopeValue: "Processing and packaging of bird's nest and stewed beverages",
+        desc: "Our processing and double-boiling bottling cleanrooms adhere strictly to HACCP principles, guaranteeing zero contamination from harvest to table.",
+        viewCert: "Ministry of Health Regulated Processing Standard"
+      },
+      close: "Close",
+      prev: "Prev",
+      next: "Next"
     },
     trust: {
       items: [
@@ -472,7 +583,8 @@ export const translations = {
       craft: "Thủ công",
       collection: "Sản phẩm",
       ritual: "Chế biến",
-      booking: "Đặt hàng"
+      booking: "Đặt hàng",
+      brand: "Hán Tuyền Yến Sào"
     },
     hero: {
       caption: "Vietnam Premium Origin",
@@ -480,6 +592,42 @@ export const translations = {
       subtitle: "Quà tặng thiên nhiên",
       desc: "Thủ công 100% · Không tẩy trắng · Trực tiếp từ nguồn",
       cta: "Khám phá Sản phẩm"
+    },
+    evidence: {
+      title: "Kiểm Định Chất Lượng Độc Lập",
+      subtitle: "Quality Proof & Certification",
+      desc: "Mỗi lô tổ yến đều được kiểm nghiệm bởi phòng thí nghiệm độc lập và tuân thủ các quy trình an toàn thực phẩm quốc tế để mang lại sự minh bạch tuyệt đối.",
+      sgs: {
+        title: "Báo Cáo Kiểm Nghiệm SGS Hong Kong",
+        dateLabel: "Ngày báo cáo",
+        dateValue: "30/04/2026",
+        sampleLabel: "Mô tả mẫu",
+        sampleValue: "Tổ Yến / Bird's Nest (燕窩)",
+        originLabel: "Xuất xứ",
+        originValue: "Việt Nam",
+        destLabel: "Điểm đến",
+        destValue: "Hong Kong",
+        itemLabel: "Chỉ tiêu kiểm nghiệm",
+        itemValue: "Nitrite",
+        resultLabel: "Kết quả",
+        resultValue: "9 mg/kg",
+        limitLabel: "Giới hạn báo cáo",
+        limitValue: "5 mg/kg",
+        note: "* Nitrite là chất tự nhiên. Kết quả 9 mg/kg cực kỳ thấp, chứng minh độ tinh khiết tự nhiên cao của tổ yến, không qua chất tẩy trắng hóa học.",
+        viewReport: "Nhấp để phóng to báo cáo SGS Hong Kong"
+      },
+      haccp: {
+        title: "Chứng Nhận An Toàn HACCP",
+        facilityLabel: "Nhà máy sản xuất",
+        facilityValue: "Nhà máy chế biến tiêu chuẩn SGS",
+        scopeLabel: "Phạm vi chứng nhận",
+        scopeValue: "Chế biến & đóng gói sản phẩm tổ yến, sản xuất đồ uống yến chưng tươi",
+        desc: "Mọi quy trình từ làm sạch thủ công, đóng gói đến chưng cất đều tuân thủ nghiêm ngặt nguyên lý HACCP, đảm bảo độ tinh khiết tối đa.",
+        viewCert: "Chứng nhận tiêu chuẩn chế biến của Bộ Y Tế"
+      },
+      close: "Đóng",
+      prev: "Trước",
+      next: "Sau"
     },
     trust: {
       items: [

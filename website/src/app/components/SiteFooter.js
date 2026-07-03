@@ -16,8 +16,14 @@ export default function SiteFooter({ section }) {
     >
       <div className="section footer-grid">
         <div className="footer-brand">
-          <a href="#hero" className="brand">
-            VN<span>.</span>Birdnest
+          <a href="#hero" className="brand footer-brand-link">
+            <div className="brand-logo-container">
+              <img src="/assets/hanquan_logo.png" alt="漢泉燕窩 Logo" className="footer-logo" />
+              <div className="brand-text-stack">
+                <span className="brand-primary">漢泉燕窩</span>
+                <span className="brand-secondary">VN.Birdnest</span>
+              </div>
+            </div>
           </a>
           <p>{section.about}</p>
 

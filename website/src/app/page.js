@@ -33,7 +33,7 @@ function HomeContent() {
       />
 
       <HeroVideo content={t.hero} />
-      <TrustBadges section={t.trust} />
+      <TrustBadges evidence={t.evidence} />
       <TraditionalCraft section={t.craft} />
       <ProductGallery section={t.collection} products={products} />
       <NutritionalGuide section={t.process} />
