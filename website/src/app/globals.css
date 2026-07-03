@@ -1296,12 +1296,15 @@ textarea:focus {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  border: 1px solid var(--glass-border);
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(191, 139, 61, 0.35);
+  box-shadow: 0 10px 30px rgba(36, 22, 12, 0.05);
   transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
 }
 
 .evidence-card:hover {
-  box-shadow: 0 20px 38px rgba(36, 22, 12, 0.12);
+  box-shadow: 0 20px 42px rgba(36, 22, 12, 0.16);
+  border-color: rgba(191, 139, 61, 0.6);
 }
 
 .card-badge {
@@ -1311,12 +1314,12 @@ textarea:focus {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  padding: 0.3rem 0.75rem;
+  padding: 0.35rem 0.85rem;
   border-radius: 99px;
-  background: rgba(191, 139, 61, 0.12);
+  background: rgba(191, 139, 61, 0.18);
   color: var(--gold-strong);
-  font-size: 0.7rem;
-  font-weight: 700;
+  font-size: 0.72rem;
+  font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -1337,48 +1340,50 @@ textarea:focus {
 .evidence-card-header h3 {
   margin: 0;
   font-family: var(--font-serif), serif;
-  font-size: 1.35rem;
-  color: var(--ink);
+  font-size: 1.4rem;
+  color: #1a0f08;
+  font-weight: 700;
 }
 
 .evidence-date {
   margin: 0.25rem 0 0;
-  font-size: 0.8rem;
-  color: var(--ink-soft);
+  font-size: 0.85rem;
+  color: #3b281d;
+  font-weight: 600;
 }
 
 .evidence-details {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.88);
   border-radius: 16px;
-  padding: 1.2rem;
-  border: 1px solid rgba(191, 139, 61, 0.08);
+  padding: 1.3rem;
+  border: 1px solid rgba(191, 139, 61, 0.22);
 }
 
 .detail-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   gap: 1rem;
 }
 
 .detail-row.border-t-glow {
-  border-top: 1px solid rgba(191, 139, 61, 0.15);
+  border-top: 1px solid rgba(191, 139, 61, 0.28);
   padding-top: 0.7rem;
   margin-top: 0.3rem;
 }
 
 .detail-label {
-  color: var(--ink-soft);
-  font-weight: 500;
+  color: #3b281d;
+  font-weight: 600;
 }
 
 .detail-val {
-  color: var(--ink);
-  font-weight: 600;
+  color: #000000;
+  font-weight: 700;
   text-align: right;
 }
 
@@ -1391,19 +1396,21 @@ textarea:focus {
 }
 
 .detail-val.badge-gold {
-  background: rgba(191, 139, 61, 0.15);
+  background: rgba(191, 139, 61, 0.22);
   color: var(--gold-strong);
-  padding: 0.15rem 0.55rem;
+  padding: 0.2rem 0.65rem;
   border-radius: 6px;
-  font-size: 0.82rem;
+  font-size: 0.85rem;
+  font-weight: 800;
 }
 
 .evidence-note {
   margin: 1.4rem 0 0.8rem;
-  font-size: 0.84rem;
+  font-size: 0.88rem;
   line-height: 1.6;
-  color: var(--ink-soft);
+  color: #2b1c12;
   font-style: italic;
+  font-weight: 500;
 }
 
 .action-hint {
@@ -1411,13 +1418,13 @@ textarea:focus {
   align-items: center;
   gap: 0.4rem;
   color: var(--gold-strong);
-  font-size: 0.78rem;
-  font-weight: 700;
+  font-size: 0.8rem;
+  font-weight: 800;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   margin-top: auto;
   padding-top: 0.8rem;
-  border-top: 1px dashed rgba(191, 139, 61, 0.18);
+  border-top: 1px dashed rgba(191, 139, 61, 0.25);
 }
 
 /* Lightbox Modal styles */

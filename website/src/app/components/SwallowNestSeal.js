@@ -65,18 +65,19 @@ export default function SwallowNestSeal() {
 
   return (
     <div className="nest-seal-container">
-      {/* Swallow Flight: Glides across on mount once */}
+      {/* Swallow Flight: Glides across and scales down to simulate flying into the background nest */}
       <motion.div
         className="swallow-glide"
-        initial={{ x: "-100vw", y: "80vh", scale: 0.6, opacity: 0 }}
+        initial={{ x: "-30vw", y: "85vh", scale: 2.2, opacity: 0 }}
         animate={{
-          x: "110vw",
-          y: "-20vh",
-          scale: [0.6, 1.2, 0.8],
-          opacity: [0, 0.85, 0.85, 0]
+          x: ["-30vw", "40vw", "75vw", "82vw"],
+          y: ["85vh", "45vh", "22vh", "12vh"],
+          scale: [2.2, 1.4, 0.6, 0.35],
+          opacity: [0, 0.95, 0.95, 0]
         }}
         transition={{
-          duration: 2.4,
+          duration: 2.8,
+          times: [0, 0.4, 0.8, 1],
           ease: [0.25, 1, 0.5, 1]
         }}
       >
@@ -84,7 +85,7 @@ export default function SwallowNestSeal() {
           {/* Elegant swallow silhouette */}
           <path
             d="M32,4 C30,16 12,24 2,28 C16,30 26,34 30,44 C32,34 42,30 56,28 C46,24 34,16 32,4 Z M30,44 C28,52 20,58 12,60 C24,58 28,52 30,44 Z M32,44 C34,52 42,58 50,60 C38,58 34,52 32,44 Z"
-            fill="rgba(191, 139, 61, 0.75)"
+            fill="rgba(153, 99, 26, 0.9)"
           />
         </svg>
       </motion.div>
