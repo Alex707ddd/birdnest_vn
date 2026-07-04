@@ -63,3 +63,7 @@ website/public/assets/
 # Re-ignore website dependencies and local build outputs
 website/node_modules/
 website/.next/
+
+# Agent local config and workspace metadata
+.agent/
+.opencode/
