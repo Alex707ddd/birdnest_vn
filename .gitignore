@@ -50,6 +50,12 @@ docs/**/media/
 archive/phase_website_legacy_20260309/result_static_site/
 website/public/assets/
 !website/public/assets/swallow_luxury.png
+!website/public/assets/swallow_sprite.png
+!website/public/assets/swallow_anim.webp
+!website/public/assets/sw_f1.png
+!website/public/assets/sw_f2.png
+!website/public/assets/sw_f3.png
+!website/public/assets/nest_real.png
 !website/public/assets/hanquan_logo.png
 !website/public/assets/hanquan_logo_2.jpg
 !website/public/assets/hanquan_logo_3.png

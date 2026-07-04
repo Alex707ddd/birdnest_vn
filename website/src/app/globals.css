@@ -1165,92 +1165,106 @@ textarea:focus {
 }
 
 /* ==========================================================================
-   Swallow & Nest Seal — Redesigned (single-flight, perch, nest-build)
+   Swallow & Nest Seal — v3: CSS Sprite Wing-flap + Real Nest Photo
    ========================================================================== */
 
-/* ── Flying layer: fixed full-viewport, z above everything ── */
+/* ── Flying layer: fixed, covers full viewport, z above everything ── */
 .swallow-flight-layer {
   position: fixed;
   top: 0;
   left: 0;
-  /* Base width before framer-motion scale transforms.
-     At scale=1 → 34vw wide.  At scale=0.22 → ~7.5vw (small perched size) */
-  width: 34vw;
-  height: auto;
   z-index: 9999;
   pointer-events: none;
   transform-origin: top left;
+  /* Framer Motion drives x/y/scale — this just sets the container */
 }
 
-@media (max-width: 768px) {
-  .swallow-flight-layer {
-    /* Mobile: start even larger so elderly users clearly see it */
-    width: 55vw;
-  }
+/* ── Sprite animation div inside flight layer ──
+   240px × 180px = one frame of the 6-frame sprite sheet (1440 × 180)
+   CSS steps(6) scrolls through all 6 frames at 8fps                    */
+.swallow-sprite-anim {
+  width: 240px;
+  height: 180px;
+  background-image: url('/assets/swallow_sprite.png');
+  background-repeat: no-repeat;
+  background-size: 1440px 180px; /* 6 frames × 240px */
+  background-position: 0 0;
+  animation: wingbeat 0.72s steps(6) infinite;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+@keyframes wingbeat {
+  from { background-position: 0 0; }
+  to   { background-position: -1440px 0; }
 }
 
 /* ── Perched container: fixed top-right corner ── */
 .nest-seal-container {
   position: fixed;
   top: 5rem;
-  right: 1.6rem;
+  right: 1.4rem;
   z-index: 200;
-  width: 180px;
+  width: 170px;
   pointer-events: none;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Inner wrapper: swallow on top, nest SVG below */
-.nest-seal-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-/* Perched swallow sits on top of the nest — PNG version, fully transparent */
+/* Perched swallow — transparent PNG, sits above nest */
 .perched-swallow-wrap {
-  width: 150px;
-  height: auto;
-  /* Overlap so bird tail visually connects to nest top */
-  margin-bottom: -14px;
+  width: 140px;
+  margin-bottom: -18px; /* overlap so tail appears to rest on nest rim */
   position: relative;
   z-index: 2;
   background: transparent;
 }
-/* Eliminate any background on Next.js Image wrappers */
-.perched-swallow-wrap span,
-.perched-swallow-wrap img {
-  background: transparent !important;
-}
-/* Flying phase swallow also needs transparent wrapper */
-.swallow-flight-layer span,
-.swallow-flight-layer img {
-  background: transparent !important;
+.perched-swallow-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: transparent;
+  filter: drop-shadow(0 4px 14px rgba(0,0,0,0.55));
 }
 
-/* Nest strand SVG — wider than tall to match the oval nest shape */
-.nest-build-svg {
-  width: 168px;
-  height: 134px;
-  overflow: visible;
+/* Real nest photo — rounded, subtle glow, sits below perched bird */
+.nest-photo-wrap {
+  width: 160px;
+  position: relative;
+  z-index: 1;
+}
+.nest-photo-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;          /* circle crop so it reads as a nest cup */
+  box-shadow:
+    0 0 18px 6px rgba(218, 168, 58, 0.55),  /* gold glow */
+    0 0 40px 14px rgba(218, 168, 58, 0.22); /* soft ambient */
 }
 
 @media (max-width: 768px) {
   .nest-seal-container {
-    top: 4.5rem;
-    right: 0.8rem;
-    width: 148px;
+    top: 4.2rem;
+    right: 0.6rem;
+    width: 130px;
   }
   .perched-swallow-wrap {
-    width: 122px;
-    margin-bottom: -12px;
+    width: 110px;
+    margin-bottom: -14px;
   }
-  .nest-build-svg {
-    width: 138px;
-    height: 110px;
+  .nest-photo-wrap {
+    width: 125px;
+  }
+  .swallow-sprite-anim {
+    width: 180px;
+    height: 135px;
+    background-size: 1080px 135px;
+  }
+  @keyframes wingbeat {
+    from { background-position: 0 0; }
+    to   { background-position: -1080px 0; }
   }
 }
 
