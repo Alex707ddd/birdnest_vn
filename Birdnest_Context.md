@@ -29,7 +29,10 @@
 - [x] [2026-04-20 週] **空姐帶貨進度跟進**：已確認樣本抵港。後續交收定於 5 月 3 日 (週日) 12:00 台北圓山站與 Johnny 當面進行 (保留於 ZeRo 家的實體樣本)。
 - [x] [Taiwan SEO] **[閣置]** 需評估以「漢泉」路線建立可被 Baidu 收錄之頁面。目前因缺乏大陸身分證 (ID) 無法完成網站備案與百度帳號開設，暫停推進。
 - [x] [2026-06-18] **台灣前輩燕窩轉錄已消化**：`tmp/docs/johnny_birdnest_raw_transcription.md` 的 durable value 已寫入本 Context；raw transcript 保留作來源。
-- [x] [2026-07-04] **Website UI Revamp v2 (Antigravity)**: 燕子升級為高質感插畫 PNG（swallow_luxury.png，有細緻羽毛紋理、無浮水印、透明背景）；燕巢從 12 條簡單線條徹底重繪為 150+ 條多層 bezier，分 9 層模擬真實燕絲結構（外緣粗圈、橫向緯線、雙向對角線、細碎交叉纖維、底部杯底網、表面光澤絲、自由環繞弧線）；goldGlow filter 加強、nest SVG 尺寸調整配合橢圓形狀；所有更改已 push 至 main 並自動部署 Vercel。
+- [x] [2026-07-04] **Website UI Revamp v3 (Antigravity)**: 
+  * **燕子動畫**：將原本的靜態圖移動改為 **CSS Sprite Sheet 動畫**。使用 3 幀高解析度燕子姿態（翅膀上/中/下），以 ImageMagick 去白底並融合成 6 幀 Sprite Sheet (`swallow_sprite.png`)。以 CSS `steps(6)` 實作 8fps 的真實拍翼循環，並配合 Framer Motion 實現左下至右上角飛入並降落的軌跡。
+  * **燕巢視覺**：拋棄原本的 SVG 碗狀線條，改用 **真實燕巢微距照片** (`nest_real.png`)。經過 50% 圓形裁切，並加上金色光暈效果（box-shadow glow），使視覺更為高貴真實。
+  * **程式碼與資產管理**：調整 `.gitignore` 排除規則以追蹤新加入的 WebP 與 PNG 資產，並全部 Push 至 GitHub main 分支完成 Vercel 部署。
 
 
 ---
