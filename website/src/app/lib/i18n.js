@@ -15,7 +15,7 @@ export const productMedia = [
   },
   {
     id: "gift",
-    image: "/assets/photo_2026-02-10_10-14-41.jpg",
+    image: "/assets/gift-box-display.jpg",
     badgeKey: null
   },
   {
