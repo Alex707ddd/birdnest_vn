@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { createWhatsAppUrl } from "../lib/contact";
+import { createWhatsAppUrl } from "../../lib/contact";
 
 export default function BookingForm({ section, products }) {
   const [website, setWebsite] = useState("");

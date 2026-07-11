@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion";
 import { Facebook, Instagram, Mail, MapPin, MessageCircle } from "lucide-react";
-import { useI18n } from "../hooks/useI18n";
+import BrandLogo from "../brand/BrandLogo";
+import { useI18n } from "../../hooks/useI18n";
 
 const socialIcons = [Instagram, Facebook, MessageCircle];
 
@@ -20,12 +21,7 @@ export default function SiteFooter({ section }) {
       <div className="section footer-grid">
         <div className="footer-brand">
           <a href="#hero" className="brand footer-brand-link">
-            <div className="brand-logo-container">
-              <img src="/assets/hanquan_logo.png" alt="Logo" className="footer-logo" />
-              <div className="brand-text-stack">
-                <span className="brand-primary">{t.nav.brand}</span>
-              </div>
-            </div>
+            <BrandLogo label={t.nav.brand} size="footer" />
           </a>
           <p>{section.about}</p>
 

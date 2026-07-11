@@ -48,7 +48,7 @@ docs/**/*.docx
 docs/**/*.xlsx
 docs/**/media/
 archive/phase_website_legacy_20260309/result_static_site/
-website/public/assets/
+website/public/assets/*
 !website/public/assets/swallow_luxury.png
 !website/public/assets/swallow_sprite.png
 !website/public/assets/swallow_anim.webp
@@ -59,6 +59,10 @@ website/public/assets/
 !website/public/assets/hanquan_logo.png
 !website/public/assets/hanquan_logo_2.jpg
 !website/public/assets/hanquan_logo_3.png
+!website/public/assets/brand/
+website/public/assets/brand/*
+!website/public/assets/brand/hanquan-logo.jpg
+!website/public/assets/brand/birdnest-eta-qrcode.png
 
 # Re-ignore website dependencies and local build outputs
 website/node_modules/

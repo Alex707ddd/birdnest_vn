@@ -2,6 +2,7 @@
 
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import BrandLogo from "../brand/BrandLogo";
 
 export default function Navbar({ lang, onLangChange, labels, languages }) {
   const [open, setOpen] = useState(false);
@@ -21,12 +22,7 @@ export default function Navbar({ lang, onLangChange, labels, languages }) {
   return (
     <nav className={`top-nav ${scrolled ? "scrolled" : ""}`}>
       <a href="#hero" className="brand" onClick={closeMenu}>
-        <div className="brand-logo-container">
-          <img src="/assets/hanquan_logo.png" alt="Logo" className="navbar-logo" />
-          <div className="brand-text-stack">
-            <span className="brand-primary">{labels.brand}</span>
-          </div>
-        </div>
+        <BrandLogo label={labels.brand} size="nav" />
       </a>
 
       <button

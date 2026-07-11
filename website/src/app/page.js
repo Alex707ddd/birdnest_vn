@@ -1,15 +1,15 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import BookingForm from "./components/BookingForm";
-import HeroVideo from "./components/HeroVideo";
-import Navbar from "./components/Navbar";
-import NutritionalGuide from "./components/NutritionalGuide";
-import ProductGallery from "./components/ProductGallery";
-import SiteFooter from "./components/SiteFooter";
-import TraditionalCraft from "./components/TraditionalCraft";
-import TrustBadges from "./components/TrustBadges";
-import WhatsAppFab from "./components/WhatsAppFab";
+import BookingForm from "./components/sections/BookingForm";
+import HeroVideo from "./components/sections/HeroVideo";
+import Navbar from "./components/layout/Navbar";
+import NutritionalGuide from "./components/sections/NutritionalGuide";
+import ProductGallery from "./components/sections/ProductGallery";
+import SiteFooter from "./components/layout/SiteFooter";
+import TraditionalCraft from "./components/sections/TraditionalCraft";
+import TrustBadges from "./components/sections/TrustBadges";
+import WhatsAppFab from "./components/layout/WhatsAppFab";
 import { I18nProvider, useI18n } from "./hooks/useI18n";
 
 function HomeContent() {

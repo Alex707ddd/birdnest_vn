@@ -12,7 +12,7 @@ const jost = Jost({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://vnbirdnest.com"),
+  metadataBase: new URL("https://birdnest-eta.vercel.app"),
   title: "頂級越南燕窩 | Premium Vietnam Bird's Nest",
   description:
     "純手工挑毛 · 零化學漂白 · 原產地直送。Premium Vietnam bird's nest direct from origin.",
@@ -23,7 +23,7 @@ export const metadata = {
     title: "Vietnam Birdnest | Premium Origin",
     description:
       "Traditional handcrafted bird's nest, direct from Vietnam origin with strict quality standards.",
-    url: "https://vnbirdnest.com",
+    url: "https://birdnest-eta.vercel.app",
     siteName: "Vietnam Birdnest",
     locale: "zh_HK",
     type: "website",

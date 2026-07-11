@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
-import { createWhatsAppUrl } from "../lib/contact";
+import { createWhatsAppUrl } from "../../lib/contact";
 
 export default function WhatsAppFab() {
   const url = createWhatsAppUrl("您好，我想了解越南燕窩產品資訊，請與我聯絡。");

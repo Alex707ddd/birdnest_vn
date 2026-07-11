@@ -1,8 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowRight, ChevronDown } from "lucide-react";
-import SwallowNestSeal from "./SwallowNestSeal";
+import { ArrowRight, ChevronDown, ShieldCheck } from "lucide-react";
 
 export default function HeroVideo({ content }) {
   const { scrollYProgress } = useScroll();
@@ -11,7 +10,6 @@ export default function HeroVideo({ content }) {
 
   return (
     <section id="hero" className="hero">
-      <SwallowNestSeal />
       <motion.video
         className="hero-video"
         autoPlay
@@ -30,23 +28,24 @@ export default function HeroVideo({ content }) {
 
       <div className="hero-overlay" />
 
-      <motion.div
-        className="hero-content liquid-panel"
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ type: "spring", stiffness: 86, damping: 18, delay: 0.08 }}
-      >
+      <div className="hero-content">
         <span className="kicker">{content.caption}</span>
         <h1>
           {content.title}
           <em>{content.subtitle}</em>
         </h1>
         <p>{content.desc}</p>
-        <a href="#products" className="gold-btn">
-          <span>{content.cta}</span>
-          <ArrowRight size={14} />
-        </a>
-      </motion.div>
+        <div className="hero-actions">
+          <a href="#ritual" className="gold-btn">
+            <span>{content.cta}</span>
+            <ArrowRight size={14} />
+          </a>
+          <a href="#evidence" className="ghost-btn">
+            <ShieldCheck size={14} />
+            <span>{content.proofCta}</span>
+          </a>
+        </div>
+      </div>
 
       <motion.a
         className="scroll-tip"

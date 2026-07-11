@@ -44,8 +44,9 @@ export const translations = {
       caption: "Vietnam Premium Origin",
       title: "傳承千年",
       subtitle: "天賜珍品",
-      desc: "純手工挑毛 · 零化學漂白 · 原產地直送 · 100% Edible Bird's Nest",
-      cta: "探索御品系列"
+      desc: "SGS 香港檢測 · 越南工廠證書 · 純手工挑毛",
+      cta: "查看煮法教學",
+      proofCta: "查看檢測證書"
     },
     evidence: {
       title: "獨立專業檢測與食安認證",
@@ -134,7 +135,7 @@ export const translations = {
       },
       bookingLink: "預約諮詢"
     },
-    process: {
+      process: {
       title: "燉煮五部曲",
       subtitle: "The 5-Step Ritual of Vitality",
       steps: [
@@ -164,7 +165,11 @@ export const translations = {
         "不可用熱水浸泡：會瞬間破壞蛋白質結構，導致口感軟爛。",
         "不可大火煮沸：激烈翻滾會使燕窩化水，必須隔水文火慢燉。",
         "不可過度清洗：避免水溶性營養（如 EGF）流失。"
-      ]
+      ],
+      qrEyebrow: "Card QR Path",
+      qrTitle: "名片掃碼，直接回到煮法教學",
+      qrDesc: "客人收到名片後，可掃描 QR Code 回到網站查看燉煮步驟、檢測資料與產品介紹，降低第一次購買的疑慮。",
+      qrAlt: "漢泉燕窩網站 QR Code"
     },
     booking: {
       title: "預約與訂購",
@@ -226,8 +231,9 @@ export const translations = {
       caption: "Vietnam Premium Origin",
       title: "传承千年",
       subtitle: "天赐珍品",
-      desc: "纯手工挑毛 · 零化学漂白 · 原产地直送 · 100% Edible Bird's Nest",
-      cta: "探索御品系列"
+      desc: "SGS 香港检测 · 越南工厂证书 · 纯手工挑毛",
+      cta: "查看炖煮教学",
+      proofCta: "查看检测证书"
     },
     evidence: {
       title: "独立专业检测与食安认证",
@@ -346,7 +352,11 @@ export const translations = {
         "不可用热水浸泡：会瞬间破坏蛋白质结构，导致口感软烂。",
         "不可大火煮沸：激烈翻滚会使燕窝化水，必须隔水文火慢炖。",
         "不可过度清洗：避免水溶性营养（如 EGF）流失。"
-      ]
+      ],
+      qrEyebrow: "Card QR Path",
+      qrTitle: "名片扫码，直接回到炖煮教学",
+      qrDesc: "客户收到名片后，可扫描 QR Code 回到网站查看炖煮步骤、检测资料与产品介绍，降低第一次购买的疑虑。",
+      qrAlt: "汉泉燕窝网站 QR Code"
     },
     booking: {
       title: "预约与订购",
@@ -408,8 +418,9 @@ export const translations = {
       caption: "Vietnam Premium Origin",
       title: "A Millennium Heritage",
       subtitle: "Nature's Gift",
-      desc: "100% Hand-picked · No Bleach · Direct from Origin",
-      cta: "Explore Collection"
+      desc: "SGS Hong Kong testing, Vietnam facility certificate, hand-picked craftsmanship, and premium gifting presentation.",
+      cta: "View Cooking Guide",
+      proofCta: "View Proof"
     },
     evidence: {
       title: "Independent Quality Verification",
@@ -528,7 +539,11 @@ export const translations = {
         "No hot water soaking: it damages protein structure instantly.",
         "No rapid boiling: violent boiling melts strands into liquid.",
         "No over-washing: avoid nutrient loss such as EGF."
-      ]
+      ],
+      qrEyebrow: "Card QR Path",
+      qrTitle: "Scan the card to revisit the cooking guide",
+      qrDesc: "The printed card QR code brings customers back to the website for cooking steps, quality proof, and product details before inquiry.",
+      qrAlt: "Han Quan Birdnest website QR Code"
     },
     booking: {
       title: "Booking & Inquiry",
@@ -590,8 +605,9 @@ export const translations = {
       caption: "Vietnam Premium Origin",
       title: "Di sản ngàn năm",
       subtitle: "Quà tặng thiên nhiên",
-      desc: "Thủ công 100% · Không tẩy trắng · Trực tiếp từ nguồn",
-      cta: "Khám phá Sản phẩm"
+      desc: "Kiểm nghiệm SGS Hong Kong, chứng nhận nhà máy Việt Nam, làm sạch thủ công và trình bày quà tặng cao cấp.",
+      cta: "Xem hướng dẫn chưng",
+      proofCta: "Xem chứng nhận"
     },
     evidence: {
       title: "Kiểm Định Chất Lượng Độc Lập",
@@ -710,7 +726,11 @@ export const translations = {
         "Không ngâm nước nóng: phá hủy cấu trúc protein ngay lập tức.",
         "Không đun sôi mạnh: làm yến tan thành nước. Phải chưng cách thủy.",
         "Không rửa quá nhiều: tránh mất dưỡng chất hòa tan như EGF."
-      ]
+      ],
+      qrEyebrow: "Card QR Path",
+      qrTitle: "Quét mã trên danh thiếp để xem hướng dẫn chưng",
+      qrDesc: "Mã QR trên danh thiếp đưa khách hàng về website để xem cách chưng, bằng chứng kiểm nghiệm và thông tin sản phẩm.",
+      qrAlt: "Mã QR website Han Quan Birdnest"
     },
     booking: {
       title: "Đặt hàng & Tư vấn",
