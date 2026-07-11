@@ -29,6 +29,13 @@
 - [x] [2026-04-20 週] **空姐帶貨進度跟進**：已確認樣本抵港。後續交收定於 5 月 3 日 (週日) 12:00 台北圓山站與 Johnny 當面進行 (保留於 ZeRo 家的實體樣本)。
 - [x] [Taiwan SEO] **[閣置]** 需評估以「漢泉」路線建立可被 Baidu 收錄之頁面。目前因缺乏大陸身分證 (ID) 無法完成網站備案與百度帳號開設，暫停推進。
 - [x] [2026-06-18] **台灣前輩燕窩轉錄已消化**：`tmp/docs/johnny_birdnest_raw_transcription.md` 的 durable value 已寫入本 Context；raw transcript 保留作來源。
+- [ ] [2026-07-02 Johnny update] **短週期變現模式**：燕窩仍受現金與執行力限制，不升級大貨；短期只適合小批 buyer discovery / sales test，例如 `2-3` 盒或 `7-10` 盒先行驗證，再考慮較大 hold / consignment model。Source: `../00_updates/transcripts/20260702_johnny_update_segments.md`。
+- [ ] [2026-07-02 Johnny update] **物流確認 gate**：新香港物流選項聲稱靠近機場、約 `<=8 days`、有 per-kg quote，但公司名、路線、報價、風險與責任邊界未確認；任何出貨前必須先確認 provider / owner / ETA / cost / blocker。
+- [x] [2026-07-02 Johnny update] **市場結論：SGS/HK report 是 buyer trust anchor**：此段確認 ZeRo 早前判斷正確，買家/市場主要看 SGS / 香港檢測 report，而不是只看越南證書；本案兩類信任素材皆有。這是 sales trust conclusion，不是 process task。網站與銷售材料應用「證據 + 氣氛」呈現，但不可擴大 claim。
+- [ ] [2026-07-02 Johnny update] **銷售材料要 QR path**：名片/卡片/跑街材料應用 QR code 導向網站或簡短 explainer；不要只印 URL。
+- [ ] [2026-07-02 Johnny update] **台灣/社交平台只作探索**：Shopee、拍賣、TikTok、Threads/X、小紅書等渠道仍需確認 account ownership、平台規則、稅務、物流與操作者，不作正式 sales plan。
+- [ ] [2026-07-02 Johnny update] **8 月初香港跑街計畫**：Johnny 打算 8 月初回香港，至少安排一天跑 Birdnest 實體渠道；預計會帶有車男仔朋友/員工協助跑街與樣品/資料交接。行前需要明確 sales pack、QR website、SGS/HK report 展示方式、樣品/盒數、路線與 owner。
+- [ ] [2026-07-02 Johnny update] **週日素材與卡片準備**：Johnny 預計週日處理 logo / card / sales material；ZeRo 負責網站與 QR code path（網站/QR 部分已完成初版）。下一步是把 QR 指向的 public proof/explainer 頁與卡片內容對齊。
 - [x] [2026-07-04] **Website UI Revamp v3 (Antigravity)**: 
   * **燕子動畫**：將原本的靜態圖移動改為 **CSS Sprite Sheet 動畫**。使用 3 幀高解析度燕子姿態（翅膀上/中/下），以 ImageMagick 去白底並融合成 6 幀 Sprite Sheet (`swallow_sprite.png`)。以 CSS `steps(6)` 實作 8fps 的真實拍翼循環，並配合 Framer Motion 實現左下至右上角飛入並降落的軌跡。
   * **燕巢視覺**：拋棄原本的 SVG 碗狀線條，改用 **真實燕巢微距照片** (`nest_real.png`)。經過 50% 圓形裁切，並加上金色光暈效果（box-shadow glow），使視覺更為高貴真實。
@@ -229,6 +236,7 @@ Source: `tmp/docs/johnny_birdnest_raw_transcription.md`
 - 不應啟動大額入貨、網站投放或大陸推廣，除非先取得明確買家/渠道承諾。
 - 下一步如要低成本推進，只適合做 `buyer discovery`：找中藥行/熟人渠道確認買斷價、寄售條件、驗貨要求與最低量。
 - `>=300g 可成交承諾量` gate 維持不變。
+- 2026-07-02 Johnny update 後補充：現階段更偏向短週期現金測試，不等待不可靠外圍協力；任何物流、報告、平台帳號、品牌使用或 QR sales material 均要先明確 owner / source / claim boundary。
 
 ### Do Not
 
