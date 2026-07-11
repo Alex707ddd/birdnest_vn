@@ -106,7 +106,7 @@ export const translations = {
     collection: {
       title: "御品系列",
       accent: "Collections",
-      desc: "高倍發頭，絲條粗壯。為孕期滋補、高端贈禮、家庭保養提供最高性價比的選擇。",
+      desc: "送禮要有體面，日常滋補要有證據。以 SGS 香港檢測與越南工廠證書建立第一層信任，再以實物、煮法與口感完成成交。",
       badges: {
         best: "Best Seller",
         new: "全新上市"
@@ -115,22 +115,22 @@ export const translations = {
         premium: {
           title: "頂級乾燕盞",
           subtitle: "Premium Dry Nest",
-          desc: "完美盞型，絲條完整粗長，口感軟滑帶微彈。每盞約 8-10g，適合高端贈禮與孕期滋補。"
+          desc: "完整盞型與清晰絲條，適合第一次建立信任、送禮展示與高端客戶試單。重點不是平價，而是看得見的品質感。"
         },
         gift: {
           title: "尊爵禮盒裝",
           subtitle: "Luxury Gift Set",
-          desc: "金色質感立體禮盒，內含頂級乾燕盞、嚴選冰糖與特級紅棗，為您搭配最完美的養生配方。"
+          desc: "為送禮場景設計的體面包裝，適合長輩、客戶與重要關係。比單純送食品更容易表達重視與質感。"
         },
         family: {
           title: "精選家庭號",
           subtitle: "Family Selection",
-          desc: "去除不規則邊角，保留厚實燕身，營養價值不減。最適合重視 CP 值的日常家庭長期保養。"
+          desc: "適合熟客與家庭長期保養。保留厚實燕身與實用份量，讓滋補不只是一盒禮品，而是可持續的生活習慣。"
         },
         canned: {
           title: "鮮燉即食燕窩",
           subtitle: "Canned Bird's Nest",
-          desc: "開罐即食，免去燉煮繁瑣。採用高溫殺菌真空封裝，完美鎖住營養，隨時隨地享受頂級滋補。"
+          desc: "為忙碌客戶準備的便利選擇，適合先體驗燕窩口感與日常飲用情境，再回到乾燕盞作長期滋補。"
         }
       },
       bookingLink: "預約諮詢"
@@ -167,8 +167,8 @@ export const translations = {
         "不可過度清洗：避免水溶性營養（如 EGF）流失。"
       ],
       qrEyebrow: "Card QR Path",
-      qrTitle: "名片掃碼，直接回到煮法教學",
-      qrDesc: "客人收到名片後，可掃描 QR Code 回到網站查看燉煮步驟、檢測資料與產品介紹，降低第一次購買的疑慮。",
+      qrTitle: "名片掃碼，先進入漢泉燕窩網站",
+      qrDesc: "名片背面的煮法圖是保留理由，QR Code 則把客人帶回網站。客人可慢慢查看煮法、檢測資料、產品與聯絡方式，讓第一次接觸不只停留在一張卡片。",
       qrAlt: "漢泉燕窩網站 QR Code"
     },
     booking: {
@@ -293,7 +293,7 @@ export const translations = {
     collection: {
       title: "御品系列",
       accent: "Collections",
-      desc: "高倍发头，丝条粗壮。为孕期滋补、高端赠礼、家庭保养提供最高性价比的选择。",
+      desc: "送礼要有体面，日常滋补要有证据。以 SGS 香港检测与越南工厂证书建立第一层信任，再以实物、煮法与口感完成成交。",
       badges: {
         best: "Best Seller",
         new: "全新上市"
@@ -302,22 +302,22 @@ export const translations = {
         premium: {
           title: "顶级干燕盏",
           subtitle: "Premium Dry Nest",
-          desc: "完美盏型，丝条完整粗长，口感软滑带微弹。每盏约 8-10g，适合高端赠礼与孕期滋补。"
+          desc: "完整盏型与清晰丝条，适合第一次建立信任、送礼展示与高端客户试单。重点不是平价，而是看得见的品质感。"
         },
         gift: {
           title: "尊爵礼盒装",
           subtitle: "Luxury Gift Set",
-          desc: "金色质感立体礼盒，内含顶级干燕盏、严选冰糖与特级红枣，为您搭配最完美的养生配方。"
+          desc: "为送礼场景设计的体面包装，适合长辈、客户与重要关系。比单纯送食品更容易表达重视与质感。"
         },
         family: {
           title: "精选家庭号",
           subtitle: "Family Selection",
-          desc: "去除不规则边角，保留厚实燕身，营养价值不减。最适合重视 CP 值的日常家庭长期保养。"
+          desc: "适合熟客与家庭长期保养。保留厚实燕身与实用份量，让滋补不只是一盒礼品，而是可持续的生活习惯。"
         },
         canned: {
           title: "鲜炖即食燕窝",
           subtitle: "Canned Bird's Nest",
-          desc: "开罐即食，免去炖煮繁琐。采用高温杀菌真空封装，完美锁住营养，随时随地享受顶级滋补。"
+          desc: "为忙碌客户准备的便利选择，适合先体验燕窝口感与日常饮用情境，再回到干燕盏作长期滋补。"
         }
       },
       bookingLink: "预约咨询"
@@ -354,8 +354,8 @@ export const translations = {
         "不可过度清洗：避免水溶性营养（如 EGF）流失。"
       ],
       qrEyebrow: "Card QR Path",
-      qrTitle: "名片扫码，直接回到炖煮教学",
-      qrDesc: "客户收到名片后，可扫描 QR Code 回到网站查看炖煮步骤、检测资料与产品介绍，降低第一次购买的疑虑。",
+      qrTitle: "名片扫码，先进入汉泉燕窝网站",
+      qrDesc: "名片背面的煮法图是保留理由，QR Code 则把客户带回网站。客户可慢慢查看炖煮、检测资料、产品与联系方式，让第一次接触不只停留在一张卡片。",
       qrAlt: "汉泉燕窝网站 QR Code"
     },
     booking: {
@@ -480,7 +480,7 @@ export const translations = {
     collection: {
       title: "Premium",
       accent: "Collections",
-      desc: "High expansion rate and thick strands, ideal for maternity care, premium gifting, and daily wellness.",
+      desc: "Premium gifting needs presentation; daily wellness needs proof. SGS Hong Kong testing and Vietnam facility certification create the first layer of trust.",
       badges: {
         best: "Best Seller",
         new: "New Arrival"
@@ -489,22 +489,22 @@ export const translations = {
         premium: {
           title: "Premium Dry Nest",
           subtitle: "Signature Grade",
-          desc: "Perfect shape with complete, thick strands and a silky springy texture, ideal for gifting and maternity nutrition."
+          desc: "A complete, premium-looking dry nest for first trust building, gifting, and high-value trial orders. The appeal is visible quality, not cheap pricing."
         },
         gift: {
           title: "Luxury Gift Set",
           subtitle: "Golden Edition",
-          desc: "A premium gift box with dry nest, rock sugar, and selected dates for a complete tonic pairing."
+          desc: "Designed for gifting to elders, clients, and important relationships where presentation and perceived value matter."
         },
         family: {
           title: "Family Selection",
           subtitle: "Daily Wellness",
-          desc: "Cost-effective daily nourishment with retained nutrition and hearty strands for family use."
+          desc: "A practical option for repeat buyers and family wellness, turning bird's nest from a one-time gift into a repeat habit."
         },
         canned: {
           title: "Canned Bird's Nest",
           subtitle: "Ready To Eat",
-          desc: "Ready on opening, vacuum packed and sterilized to lock nutrients for modern convenience."
+          desc: "A convenient entry option for busy customers to experience the texture and daily use case before moving into dry nest."
         }
       },
       bookingLink: "Book Consultation"
@@ -541,8 +541,8 @@ export const translations = {
         "No over-washing: avoid nutrient loss such as EGF."
       ],
       qrEyebrow: "Card QR Path",
-      qrTitle: "Scan the card to revisit the cooking guide",
-      qrDesc: "The printed card QR code brings customers back to the website for cooking steps, quality proof, and product details before inquiry.",
+      qrTitle: "Scan the card to enter the Han Quan website",
+      qrDesc: "The cooking graphic gives customers a reason to keep the card. The QR code brings them back to the website to explore cooking, proof, products, and contact options.",
       qrAlt: "Han Quan Birdnest website QR Code"
     },
     booking: {
@@ -667,7 +667,7 @@ export const translations = {
     collection: {
       title: "Bộ sưu tập",
       accent: "Cao cấp",
-      desc: "Độ nở cao, sợi yến dày. Sự lựa chọn hoàn hảo cho thai kỳ, quà tặng cao cấp và gia đình.",
+      desc: "Quà tặng cao cấp cần hình ảnh; dùng hằng ngày cần niềm tin. Kiểm nghiệm SGS Hong Kong và chứng nhận nhà máy Việt Nam là lớp tin cậy đầu tiên.",
       badges: {
         best: "Bán chạy nhất",
         new: "Mới ra mắt"
@@ -676,22 +676,22 @@ export const translations = {
         premium: {
           title: "Yến sào cao cấp",
           subtitle: "Premium Dry Nest",
-          desc: "Hình dáng hoàn hảo, sợi dài và dày, kết cấu mềm và hơi dai. Khoảng 8-10g mỗi tổ."
+          desc: "Tổ yến khô có hình thức đẹp, phù hợp cho đơn thử đầu tiên, quà tặng và khách hàng cần cảm giác cao cấp."
         },
         gift: {
           title: "Hộp quà sang trọng",
           subtitle: "Luxury Gift Set",
-          desc: "Hộp quà vàng 3D, gồm yến sào cao cấp, đường phèn và táo đỏ."
+          desc: "Thiết kế cho biếu tặng người lớn tuổi, khách hàng và các mối quan hệ quan trọng cần sự trang trọng."
         },
         family: {
           title: "Lựa chọn gia đình",
           subtitle: "Family Selection",
-          desc: "Đã loại bỏ viền không đều, giữ lại phần thân dày. Lựa chọn kinh tế cho gia đình."
+          desc: "Phù hợp cho khách mua lại và gia đình dùng lâu dài, biến yến sào từ quà tặng thành thói quen chăm sóc."
         },
         canned: {
           title: "Yến sào đóng hộp",
           subtitle: "Canned Bird's Nest",
-          desc: "Ăn liền tiện lợi. Đóng gói chân không tiệt trùng ở nhiệt độ cao, giữ nguyên dưỡng chất."
+          desc: "Lựa chọn tiện lợi cho khách bận rộn muốn trải nghiệm hương vị và cách dùng hằng ngày trước khi chọn yến khô."
         }
       },
       bookingLink: "Đặt hàng tư vấn"
@@ -728,8 +728,8 @@ export const translations = {
         "Không rửa quá nhiều: tránh mất dưỡng chất hòa tan như EGF."
       ],
       qrEyebrow: "Card QR Path",
-      qrTitle: "Quét mã trên danh thiếp để xem hướng dẫn chưng",
-      qrDesc: "Mã QR trên danh thiếp đưa khách hàng về website để xem cách chưng, bằng chứng kiểm nghiệm và thông tin sản phẩm.",
+      qrTitle: "Quét mã trên danh thiếp để vào website Han Quan",
+      qrDesc: "Hình hướng dẫn giúp khách giữ lại danh thiếp. Mã QR đưa khách về website để xem cách chưng, bằng chứng kiểm nghiệm, sản phẩm và liên hệ.",
       qrAlt: "Mã QR website Han Quan Birdnest"
     },
     booking: {

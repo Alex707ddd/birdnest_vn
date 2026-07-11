@@ -124,7 +124,7 @@ export default function TrustBadges({ evidence }) {
 
           <p className="evidence-note">{evidence.sgs.note}</p>
 
-          <div className="action-hint">
+          <div className="action-hint proof-action">
             <ZoomIn size={14} />
             <span>{evidence.sgs.viewReport}</span>
           </div>
@@ -169,7 +169,7 @@ export default function TrustBadges({ evidence }) {
 
           <p className="evidence-note">{evidence.haccp.desc}</p>
 
-          <div className="action-hint">
+          <div className="action-hint proof-action">
             <ZoomIn size={14} />
             <span>{evidence.haccp.viewCert}</span>
           </div>

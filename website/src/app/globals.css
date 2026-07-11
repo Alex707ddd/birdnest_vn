@@ -1588,6 +1588,7 @@ textarea:focus {
 .action-hint {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.4rem;
   color: var(--gold-strong);
   font-size: 0.8rem;
@@ -1597,6 +1598,14 @@ textarea:focus {
   margin-top: auto;
   padding-top: 0.8rem;
   border-top: 1px dashed rgba(191, 139, 61, 0.25);
+}
+
+.proof-action {
+  width: 100%;
+  border-radius: 999px;
+  padding: 0.82rem 1rem;
+  background: rgba(191, 139, 61, 0.13);
+  border: 1px solid rgba(191, 139, 61, 0.22);
 }
 
 /* Lightbox Modal styles */
@@ -1685,6 +1694,7 @@ textarea:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -1727,6 +1737,11 @@ textarea:focus {
     padding: 1.5rem;
   }
 
+  .proof-action {
+    padding: 0.9rem 1rem;
+    font-size: 0.84rem;
+  }
+
   .evidence-card-header {
     padding-right: 0;
     margin-bottom: 1.3rem;
@@ -1764,6 +1779,19 @@ textarea:focus {
 
   .lightbox-nav.next {
     right: -0.5rem;
+  }
+
+  .lightbox-title-bar {
+    align-items: flex-start;
+  }
+
+  .lightbox-title-bar h4 {
+    font-size: 0.92rem;
+    line-height: 1.35;
+  }
+
+  .lightbox-title-bar small {
+    white-space: nowrap;
   }
 }
 
