@@ -23,7 +23,7 @@ export default function HeroVideo({ content }) {
         transition={{ type: "spring", stiffness: 72, damping: 20, mass: 1.05 }}
         style={{ y, opacity }}
       >
-        <source src="/assets/1JDUVEDKS_41R364.mp4" type="video/mp4" />
+        <source src="/assets/hero-birdnest-hd.mp4" type="video/mp4" />
       </motion.video>
 
       <div className="hero-overlay" />
@@ -36,13 +36,13 @@ export default function HeroVideo({ content }) {
         </h1>
         <p>{content.desc}</p>
         <div className="hero-actions">
-          <a href="#ritual" className="gold-btn">
-            <span>{content.cta}</span>
-            <ArrowRight size={14} />
-          </a>
           <a href="#booking" className="ghost-btn">
             <ShoppingBag size={14} />
             <span>{content.proofCta}</span>
+          </a>
+          <a href="#ritual" className="gold-btn secondary-hero-btn">
+            <span>{content.cta}</span>
+            <ArrowRight size={14} />
           </a>
         </div>
       </div>

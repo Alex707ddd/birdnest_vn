@@ -335,6 +335,21 @@ main {
     background 0.2s ease;
 }
 
+.hero-actions .ghost-btn {
+  color: #fff;
+  padding: 0.95rem 2.15rem;
+  background: linear-gradient(130deg, var(--gold), #d1a25a);
+  border: 0;
+  box-shadow: 0 10px 24px rgba(156, 106, 30, 0.38);
+}
+
+.secondary-hero-btn {
+  color: #fff4df;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 235, 197, 0.35);
+  box-shadow: none;
+}
+
 .ghost-btn:hover {
   transform: translateY(-1px);
   background: rgba(255, 255, 255, 0.18);
