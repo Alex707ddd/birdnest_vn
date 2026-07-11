@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowRight, ChevronDown, ShieldCheck } from "lucide-react";
+import { ArrowRight, ChevronDown, ShoppingBag } from "lucide-react";
 
 export default function HeroVideo({ content }) {
   const { scrollYProgress } = useScroll();
@@ -40,8 +40,8 @@ export default function HeroVideo({ content }) {
             <span>{content.cta}</span>
             <ArrowRight size={14} />
           </a>
-          <a href="#evidence" className="ghost-btn">
-            <ShieldCheck size={14} />
+          <a href="#booking" className="ghost-btn">
+            <ShoppingBag size={14} />
             <span>{content.proofCta}</span>
           </a>
         </div>

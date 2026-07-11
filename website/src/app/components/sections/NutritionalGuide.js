@@ -44,15 +44,6 @@ export default function NutritionalGuide({ section }) {
             ))}
           </ul>
         </aside>
-
-        <aside className="ritual-qr liquid-panel">
-          <div>
-            <span>{section.qrEyebrow}</span>
-            <h4>{section.qrTitle}</h4>
-            <p>{section.qrDesc}</p>
-          </div>
-          <img src="/assets/brand/birdnest-eta-qrcode.png" alt={section.qrAlt} />
-        </aside>
       </div>
     </motion.section>
   );

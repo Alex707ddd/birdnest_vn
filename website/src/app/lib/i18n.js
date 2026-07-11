@@ -46,7 +46,7 @@ export const translations = {
       subtitle: "天賜珍品",
       desc: "SGS 香港檢測 · 越南工廠證書 · 純手工挑毛",
       cta: "查看煮法教學",
-      proofCta: "查看檢測證書"
+      proofCta: "立即預約訂購"
     },
     evidence: {
       title: "獨立專業檢測與食安認證",
@@ -165,11 +165,7 @@ export const translations = {
         "不可用熱水浸泡：會瞬間破壞蛋白質結構，導致口感軟爛。",
         "不可大火煮沸：激烈翻滾會使燕窩化水，必須隔水文火慢燉。",
         "不可過度清洗：避免水溶性營養（如 EGF）流失。"
-      ],
-      qrEyebrow: "Card QR Path",
-      qrTitle: "名片掃碼，先進入漢泉燕窩網站",
-      qrDesc: "名片背面的煮法圖是保留理由，QR Code 則把客人帶回網站。客人可慢慢查看煮法、檢測資料、產品與聯絡方式，讓第一次接觸不只停留在一張卡片。",
-      qrAlt: "漢泉燕窩網站 QR Code"
+      ]
     },
     booking: {
       title: "預約與訂購",
@@ -233,7 +229,7 @@ export const translations = {
       subtitle: "天赐珍品",
       desc: "SGS 香港检测 · 越南工厂证书 · 纯手工挑毛",
       cta: "查看炖煮教学",
-      proofCta: "查看检测证书"
+      proofCta: "立即预约订购"
     },
     evidence: {
       title: "独立专业检测与食安认证",
@@ -352,11 +348,7 @@ export const translations = {
         "不可用热水浸泡：会瞬间破坏蛋白质结构，导致口感软烂。",
         "不可大火煮沸：激烈翻滚会使燕窝化水，必须隔水文火慢炖。",
         "不可过度清洗：避免水溶性营养（如 EGF）流失。"
-      ],
-      qrEyebrow: "Card QR Path",
-      qrTitle: "名片扫码，先进入汉泉燕窝网站",
-      qrDesc: "名片背面的煮法图是保留理由，QR Code 则把客户带回网站。客户可慢慢查看炖煮、检测资料、产品与联系方式，让第一次接触不只停留在一张卡片。",
-      qrAlt: "汉泉燕窝网站 QR Code"
+      ]
     },
     booking: {
       title: "预约与订购",
@@ -420,7 +412,7 @@ export const translations = {
       subtitle: "Nature's Gift",
       desc: "SGS Hong Kong testing, Vietnam facility certificate, hand-picked craftsmanship, and premium gifting presentation.",
       cta: "View Cooking Guide",
-      proofCta: "View Proof"
+      proofCta: "Order Inquiry"
     },
     evidence: {
       title: "Independent Quality Verification",
@@ -539,11 +531,7 @@ export const translations = {
         "No hot water soaking: it damages protein structure instantly.",
         "No rapid boiling: violent boiling melts strands into liquid.",
         "No over-washing: avoid nutrient loss such as EGF."
-      ],
-      qrEyebrow: "Card QR Path",
-      qrTitle: "Scan the card to enter the Han Quan website",
-      qrDesc: "The cooking graphic gives customers a reason to keep the card. The QR code brings them back to the website to explore cooking, proof, products, and contact options.",
-      qrAlt: "Han Quan Birdnest website QR Code"
+      ]
     },
     booking: {
       title: "Booking & Inquiry",
@@ -607,7 +595,7 @@ export const translations = {
       subtitle: "Quà tặng thiên nhiên",
       desc: "Kiểm nghiệm SGS Hong Kong, chứng nhận nhà máy Việt Nam, làm sạch thủ công và trình bày quà tặng cao cấp.",
       cta: "Xem hướng dẫn chưng",
-      proofCta: "Xem chứng nhận"
+      proofCta: "Đặt hàng tư vấn"
     },
     evidence: {
       title: "Kiểm Định Chất Lượng Độc Lập",
@@ -726,11 +714,7 @@ export const translations = {
         "Không ngâm nước nóng: phá hủy cấu trúc protein ngay lập tức.",
         "Không đun sôi mạnh: làm yến tan thành nước. Phải chưng cách thủy.",
         "Không rửa quá nhiều: tránh mất dưỡng chất hòa tan như EGF."
-      ],
-      qrEyebrow: "Card QR Path",
-      qrTitle: "Quét mã trên danh thiếp để vào website Han Quan",
-      qrDesc: "Hình hướng dẫn giúp khách giữ lại danh thiếp. Mã QR đưa khách về website để xem cách chưng, bằng chứng kiểm nghiệm, sản phẩm và liên hệ.",
-      qrAlt: "Mã QR website Han Quan Birdnest"
+      ]
     },
     booking: {
       title: "Đặt hàng & Tư vấn",
