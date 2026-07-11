@@ -10,17 +10,12 @@ export const languages = [
 export const productMedia = [
   {
     id: "premium",
-    image: "/assets/IMG_2779.JPG",
+    image: "/assets/IMG_2783.JPG",
     badgeKey: "best"
   },
   {
     id: "gift",
     image: "/assets/photo_2026-02-10_10-14-41.jpg",
-    badgeKey: null
-  },
-  {
-    id: "family",
-    image: "/assets/IMG_2783.JPG",
     badgeKey: null
   },
   {
@@ -66,9 +61,7 @@ export const translations = {
         itemValue: "亞硝酸鹽 (Nitrite)",
         resultLabel: "檢測結果",
         resultValue: "9 mg/kg",
-        limitLabel: "定量極限",
-        limitValue: "5 mg/kg",
-        note: "* 亞硝酸鹽乃天然物質。本樣品檢出值 9 mg/kg 極低，遠低於食安限量標準，證實燕窩品質極致天然、純淨、無化學漂白。",
+        note: "* 亞硝酸鹽乃天然物質。本樣品檢出值 9 mg/kg 屬低水平，遠低於常見食安參考上限；SGS 香港報告原圖可點擊查閱。",
         viewReport: "點擊放大查閱 SGS 香港報告原圖"
       },
       haccp: {
@@ -121,11 +114,6 @@ export const translations = {
           title: "尊爵禮盒裝",
           subtitle: "Luxury Gift Set",
           desc: "為送禮場景設計的體面包裝，適合長輩、客戶與重要關係。比單純送食品更容易表達重視與質感。"
-        },
-        family: {
-          title: "精選家庭號",
-          subtitle: "Family Selection",
-          desc: "適合熟客與家庭長期保養。保留厚實燕身與實用份量，讓滋補不只是一盒禮品，而是可持續的生活習慣。"
         },
         canned: {
           title: "鮮燉即食燕窩",
@@ -186,7 +174,6 @@ export const translations = {
       options: {
         premium: "頂級乾燕盞 Premium Dry Nest",
         gift: "尊爵禮盒裝 Luxury Gift Set",
-        family: "精選家庭號 Family Selection",
         canned: "鮮燉即食燕窩 Canned Bird's Nest"
       },
       successMessage: "感謝預約，我們將盡快聯絡您！",
@@ -249,9 +236,7 @@ export const translations = {
         itemValue: "亚硝酸盐 (Nitrite)",
         resultLabel: "检测结果",
         resultValue: "9 mg/kg",
-        limitLabel: "定量极限",
-        limitValue: "5 mg/kg",
-        note: "* 亚硝酸盐乃天然物质。本样品检出值 9 mg/kg 极低，远低于食安限量标准，证实燕窝品质极致天然、纯净、无化学漂白。",
+        note: "* 亚硝酸盐乃天然物质。本样品检出值 9 mg/kg 属低水平，远低于常见食安参考上限；SGS 香港报告原图可点击查阅。",
         viewReport: "点击放大查阅 SGS 香港报告原图"
       },
       haccp: {
@@ -304,11 +289,6 @@ export const translations = {
           title: "尊爵礼盒装",
           subtitle: "Luxury Gift Set",
           desc: "为送礼场景设计的体面包装，适合长辈、客户与重要关系。比单纯送食品更容易表达重视与质感。"
-        },
-        family: {
-          title: "精选家庭号",
-          subtitle: "Family Selection",
-          desc: "适合熟客与家庭长期保养。保留厚实燕身与实用份量，让滋补不只是一盒礼品，而是可持续的生活习惯。"
         },
         canned: {
           title: "鲜炖即食燕窝",
@@ -369,7 +349,6 @@ export const translations = {
       options: {
         premium: "顶级干燕盏 Premium Dry Nest",
         gift: "尊爵礼盒装 Luxury Gift Set",
-        family: "精选家庭号 Family Selection",
         canned: "鲜炖即食燕窝 Canned Bird's Nest"
       },
       successMessage: "感谢预约，我们将尽快联系您！",
@@ -432,9 +411,7 @@ export const translations = {
         itemValue: "Nitrite",
         resultLabel: "Test Result",
         resultValue: "9 mg/kg",
-        limitLabel: "Reporting Limit",
-        limitValue: "5 mg/kg",
-        note: "* Nitrite is naturally occurring. The result of 9 mg/kg is extremely low, demonstrating superior purity and authentic natural craftsmanship without bleaching.",
+        note: "* Nitrite is naturally occurring. The result of 9 mg/kg is low and well below common food-safety reference levels; tap to review the original SGS Hong Kong report.",
         viewReport: "Tap to zoom SGS Hong Kong report"
       },
       haccp: {
@@ -487,11 +464,6 @@ export const translations = {
           title: "Luxury Gift Set",
           subtitle: "Golden Edition",
           desc: "Designed for gifting to elders, clients, and important relationships where presentation and perceived value matter."
-        },
-        family: {
-          title: "Family Selection",
-          subtitle: "Daily Wellness",
-          desc: "A practical option for repeat buyers and family wellness, turning bird's nest from a one-time gift into a repeat habit."
         },
         canned: {
           title: "Canned Bird's Nest",
@@ -552,7 +524,6 @@ export const translations = {
       options: {
         premium: "Premium Dry Nest",
         gift: "Luxury Gift Set",
-        family: "Family Selection",
         canned: "Canned Bird's Nest"
       },
       successMessage: "Thank you for booking. We will contact you shortly.",
@@ -615,9 +586,7 @@ export const translations = {
         itemValue: "Nitrite",
         resultLabel: "Kết quả",
         resultValue: "9 mg/kg",
-        limitLabel: "Giới hạn báo cáo",
-        limitValue: "5 mg/kg",
-        note: "* Nitrite là chất tự nhiên. Kết quả 9 mg/kg cực kỳ thấp, chứng minh độ tinh khiết tự nhiên cao của tổ yến, không qua chất tẩy trắng hóa học.",
+        note: "* Nitrite là chất tự nhiên. Kết quả 9 mg/kg ở mức thấp và thấp hơn nhiều so với các mức tham chiếu an toàn thực phẩm phổ biến; có thể xem báo cáo SGS Hong Kong gốc.",
         viewReport: "Nhấp để phóng to báo cáo SGS Hong Kong"
       },
       haccp: {
@@ -670,11 +639,6 @@ export const translations = {
           title: "Hộp quà sang trọng",
           subtitle: "Luxury Gift Set",
           desc: "Thiết kế cho biếu tặng người lớn tuổi, khách hàng và các mối quan hệ quan trọng cần sự trang trọng."
-        },
-        family: {
-          title: "Lựa chọn gia đình",
-          subtitle: "Family Selection",
-          desc: "Phù hợp cho khách mua lại và gia đình dùng lâu dài, biến yến sào từ quà tặng thành thói quen chăm sóc."
         },
         canned: {
           title: "Yến sào đóng hộp",
@@ -735,7 +699,6 @@ export const translations = {
       options: {
         premium: "Yến sào cao cấp",
         gift: "Hộp quà sang trọng",
-        family: "Lựa chọn gia đình",
         canned: "Yến sào đóng hộp (Ăn liền)"
       },
       successMessage: "Cảm ơn bạn đã đặt lịch. Chúng tôi sẽ liên hệ sớm nhất.",

@@ -4,7 +4,7 @@ const WINDOW_MS = 60 * 1000;
 const LIMIT_PER_WINDOW = 5;
 const MIN_FORM_FILL_MS = 2500;
 const MAX_MESSAGE_LENGTH = 1200;
-const PRODUCT_IDS = new Set(["premium", "gift", "family", "canned"]);
+const PRODUCT_IDS = new Set(["premium", "gift", "canned"]);
 
 const bucket = globalThis.__bookingRateLimit ?? new Map();
 globalThis.__bookingRateLimit = bucket;

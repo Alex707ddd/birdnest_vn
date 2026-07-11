@@ -505,6 +505,11 @@ main {
   margin: 0 auto 4rem;
 }
 
+.title-wrap .kicker {
+  color: #b67622;
+  text-shadow: none;
+}
+
 .title-wrap h2 {
   margin: 0;
   font-family: var(--font-serif), serif;
@@ -524,7 +529,7 @@ main {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 2rem;
   align-items: stretch;
 }

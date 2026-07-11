@@ -116,10 +116,6 @@ export default function TrustBadges({ evidence }) {
               <span className="detail-label">{evidence.sgs.resultLabel}</span>
               <span className="detail-val badge-gold">{evidence.sgs.resultValue}</span>
             </div>
-            <div className="detail-row">
-              <span className="detail-label">{evidence.sgs.limitLabel}</span>
-              <span className="detail-val">{evidence.sgs.limitValue}</span>
-            </div>
           </div>
 
           <p className="evidence-note">{evidence.sgs.note}</p>
